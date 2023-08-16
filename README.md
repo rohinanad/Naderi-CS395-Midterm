@@ -46,6 +46,7 @@ Opening this file you will see a JSON-formatted file containing useful informati
 - Inside the file, you should edit the following keys:
   - `author` - with your name
   - `name` - give your extenstion a unique name
+  - `icon` - this is optional to edit, but feel free to edit the random icon I've provided.
   - `description` and `version` - this are optional to edit, but feel free to utilize them.
   
 Finally, take a look at the following key:
