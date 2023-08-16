@@ -137,6 +137,6 @@ Submit a Zip file in the following format to Blackboard by September 12th before
 
 ``LASTNAME-CS395-HW2-Tab.zip``
 
-The zip file should contain a folder with the same name as the zip file, and the folder inside should contain all code. For example `LASTNAME-CS395-HW2-Tab.zip -->` LASTNAME-CS395-HW2-Tab --> (files or folders pertaining code, such as newtab.html, /js/ )`.
+The zip file should contain a folder with the same name as the zip file, and the folder inside should contain all code. For example `LASTNAME-CS395-HW2-Tab.zip --> LASTNAME-CS395-HW2-Tab --> (files or folders pertaining to code, such as newtab.html, /js/ )`.
 
 Please email us if you have any questions or need an extension. Late Submissions won't be accepted without prior approval.
