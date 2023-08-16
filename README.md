@@ -1,7 +1,7 @@
 # Homework 2: Tab <!-- omit in toc -->
 
-- [Overview](#overview)
 - [Background](#background)
+- [Overview](#overview)
 - [Requirements](#requirements)
   - [Background Image](#background-image)
   - [Current Time](#current-time)
@@ -10,7 +10,7 @@
   - [Design](#design)
 - [Submission](#submission)
 
-## Overview
+## Background
 <hr>
 
 One of the most common ways users interact with HTML, CSS, and JavaScript while browsing is not only through webpages, but also extensions--small packaged software that can modify the behavior or experience of a user's browser.
@@ -21,7 +21,7 @@ We will also be utilizing several APIs--**application programming interfaces**--
 
 <div style="break-after:page"></div>
 
-## Background
+## Overview
 
 <hr>
 
