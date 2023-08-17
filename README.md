@@ -15,9 +15,7 @@
 
 One of the most common ways users interact with HTML, CSS, and JavaScript while browsing is not only through webpages, but also extensions--small packaged software that can modify the behavior or experience of a user's browser.
 
-In this assignment, we will be creating an extension for Chrome, which modifies the new tab page. By default, Chrome's new tab contains a simple page with a search bar and some frequently visited websites, however, in this assignment we will be overriding the default new tab with a custom page designed by you!
-
-We will also be utilizing several APIs--**application programming interfaces**--to make our new tab more flavorful! Application programming interfaces are a way for different applications to interact with each other.
+In this assignment, we will be creating an extension for Chrome that modifies the new tab page. By default, Chrome's new tab contains a simple page with a search bar and some frequently visited websites, however, in this assignment we will be overriding the default new tab with a custom page designed by you!
 
 <div style="break-after:page"></div>
 
@@ -32,6 +30,8 @@ Though they may seem complex at first, extensions are relatively simple to begin
 You can do this by either downloading the .Zip file from GitHub and extracting it normally or using the command below in a terminal:
 
     git clone https://github.com/krizh-p/CS395-HW2-Tab
+
+Once you download/clone the starter code from my repository, create a new repository on GitHub for yourself; you should _push_ your code iteratively as you develop the extension.
 
 Opening the folder you downloaded from GitHub will display multiple files and folders.
 
@@ -55,7 +55,7 @@ Finally, take a look at the following key:
         "newtab": "newtab.html"
         }
 
-Here we are informing Chrome that we will be overriding Chrome's default new tab (`"newtab"`) with the path to our own page, `"newtab.html"` (which is located in the same directory as this manifest.json). Now, whenever you open a new tab, Chrome will load `newtab.html`--this will be the file containing your HTML.
+Here we are informing Chrome that we will be overriding Chrome's default new tab (`"newtab"`) with the path to our page, `"newtab.html"` (which is located in the same directory as this manifest.json). Now, whenever you open a new tab, Chrome will load `newtab.html`--this will be the file containing your HTML.
 
 Note the other folders located in the GitHub repo: `assets`, `css`, and `js`. You must place all assets such as `.png` or `.jpeg` files in the `/assets/` subdirectory, and all .css and .js files in their respective folders.
 
@@ -89,9 +89,9 @@ The extension should contain the following features:
 
 ### Background Image
 
-- When a new tab is opened, the page's background should be set to a randomized image. You can use public APIs like the Unsplash API or Picsum.
-  - For your convenience, here are some URLs that return a random image: `https://source.unsplash.com/random/1920x1080/?modern`, and if that doesn't work try `https://picsum.photos/1920/1080`.
-    - In the Unsplash API link, you can replace the GET parameter value `modern` with another keyword to the type of image you want to be returned (ie. landscapes, clouds, city).
+- When a new tab is opened, the page's background should be set to a randomized image. 
+  - For your convenience, the following link will return a random image: `https://source.unsplash.com/random/1920x1080/?modern`.
+    - This uses the Unsplash API link; you can replace the GET parameter value `modern` with another keyword to the type of image you want to be returned (ie. landscapes, clouds, city).
 
 ### Current Time
 
@@ -112,6 +112,8 @@ The extension should contain the following features:
   - #### Random Quote
     - The bottom of the screen should contain a centered, randomized quote.
     - You can utilize the Quotable API at this URL to obtain a random quote: `https://api.quotable.io/random`.
+      - APIs, **application programming interfaces**, are a way for different applications to interact with each other.
+      - The Quotable API returns an `Object` when you visit the URL linked above; this means we can parse the `Object`'s values via the `fetch()` function in JavaScript. [View this link for an example of implementing a fetch() request.](https://developer.mozilla.org/en-US/docs/Web/API/fetch#examples)
   - #### Pomodoro Timer
     - Implement a Pomodoro timer feature that allows users to set focused work intervals and short breaks
     - Display the countdown timer prominently on the screen.
@@ -137,6 +139,6 @@ Submit a Zip file in the following format to Blackboard by September 12th before
 
 ``LASTNAME-CS395-HW2-Tab.zip``
 
-The zip file should contain a folder with the same name as the zip file, and the folder inside should contain all code. For example `LASTNAME-CS395-HW2-Tab.zip -->` LASTNAME-CS395-HW2-Tab --> (files or folders pertaining code, such as newtab.html, /js/ )`.
+The zip file should contain a folder with the same name as the zip file, and the folder inside should contain all code. For example `LASTNAME-CS395-HW2-Tab.zip --> LASTNAME-CS395-HW2-Tab --> (files or folders pertaining code, such as newtab.html, /js/ )`.
 
 Please email us if you have any questions or need an extension. Late Submissions won't be accepted without prior approval.
