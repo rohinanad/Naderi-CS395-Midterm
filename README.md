@@ -133,6 +133,8 @@ Please feel free to add creative choices that reflect you!
 
 ## Submission
 
+Lastly, add a `README.md` file to your project that briefly outlines your work on the portfolio; you must also link/cite any external resources you used for guidance (JavaScript documentation, YouTube tutorial, etc.) in this file.
+
 <hr>
 
 Submit a Zip file in the following format to Blackboard by September 12th before class:
