@@ -126,6 +126,7 @@ The extension should contain the following features:
 ### Design
 
 The design of the new tab should prioritize accessibility, usability, and aesthetic appeal. Ensure that the font and color choices are visually pleasing and easy to read. Your new tab should have intuitive interactions the extension should work seamlessly on Google Chrome's new tab page after installation. You should maintain a cohesive design across all your elements.
+  - Your page must utilize **responsive design,** via either a flexbox or a grid.
 
 Please feel free to add creative choices that reflect you!
 
