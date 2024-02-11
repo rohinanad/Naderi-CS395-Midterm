@@ -1,0 +1,22 @@
+body{
+    background-color: white;
+}
+#name-display{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 50px;
+    position: relative;
+    left: -500px; /* Initially positioned outside the viewport */
+    transition: left 1.0s ease-in-out; /* Smooth transition effect */
+}
+#profile-photo{
+    height: 400px;
+    border-radius: 300px;
+    position: relative;
+    right: -50px; /* Initially positioned outside the viewport */
+    transition: left 1.0s ease-in-out; /* Smooth transition effect */
+}
+.intro-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
