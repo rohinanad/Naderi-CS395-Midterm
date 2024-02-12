@@ -1,9 +1,12 @@
 document.addEventListener('DOMContentLoaded', function () {
-   slideInNameDisplay();
+   slideInNameDisplay('name-display');
+   slideInNameDisplay('bio');
+   slideInNameDisplay('about-me');
+   slideInProfilePhoto();
 });
 
-function slideInNameDisplay() {
-    var nameDisplayElement = document.getElementById('name-display');
+function slideInNameDisplay(elementID) {
+    var nameDisplayElement = document.getElementById(elementID);
 
     if (nameDisplayElement) {
         // Add a class to trigger the sliding animation
@@ -13,11 +16,10 @@ function slideInNameDisplay() {
     }
 }
 function slideInProfilePhoto() {
-    var nameDisplayElement = document.getElementById('profile-photo');
+    var photoElement = document.getElementById('profile-photo');
 
-    if (nameDisplayElement) {
-        // Add a class to trigger the sliding animation
-        nameDisplayElement.style.right = '0';
+    if (photoElement) {
+        photoElement.style.right = '0';
     } else {
         console.error('Element not found');
     }

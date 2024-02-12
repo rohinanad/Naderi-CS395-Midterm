@@ -1,18 +1,51 @@
+@font-face {
+    font-family: 'HelloOlivia';
+    src: url('../assets/fonts//hello_olivia/Hello\ Olivia\ Italic.ttf')format('trueType');
+}
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('../assets/fonts/Inconsolata-VariableFont_wdth\,wght.ttf')format('trueType');
+}
 body{
     background-color: white;
 }
 #name-display{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'HelloOlivia';
+    font-weight: 150;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
     margin-right: 50px;
     position: relative;
-    left: -500px; /* Initially positioned outside the viewport */
+    left: -100%; /* Initially positioned outside the viewport */
     transition: left 1.0s ease-in-out; /* Smooth transition effect */
 }
+/* #about-me{
+    display:flex;
+    justify-content: center;
+    font-family: 'HelloOlivia';
+    margin-right: 100px;
+    font-weight: 100;
+    text-decoration-line:underline;
+    text-decoration-thickness: 1px;
+} */
 #profile-photo{
     height: 400px;
     border-radius: 300px;
     position: relative;
-    right: -50px; /* Initially positioned outside the viewport */
+    right: -500px; /* Initially positioned outside the viewport */
+    transition: right 1.0s ease-in-out; /* Smooth transition effect */
+}
+#bio{
+    font-family: 'Inconsolata';
+    font-weight: 300;
+    width: 500px;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 50px;
+    font-size:larger;
+    position: relative;
+    left: -500px; /* Initially positioned outside the viewport */
     transition: left 1.0s ease-in-out; /* Smooth transition effect */
 }
 .intro-div{
