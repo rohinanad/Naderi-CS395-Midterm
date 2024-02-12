@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
    slideInNameDisplay('name-display');
    slideInNameDisplay('bio');
    slideInNameDisplay('about-me');
+   slideInNameDisplay('icon-cont');
    slideInProfilePhoto();
 });
 
