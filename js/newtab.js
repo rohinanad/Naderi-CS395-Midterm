@@ -1,9 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
    slideInNameDisplay('name-display');
    slideInNameDisplay('bio');
-   slideInNameDisplay('about-me');
-   slideInNameDisplay('icon-cont');
-   slideInProfilePhoto();
+   slideInProfilePhoto('icon-cont');
+   slideInProfilePhoto('profile-photo');
 });
 
 function slideInNameDisplay(elementID) {
@@ -16,8 +15,8 @@ function slideInNameDisplay(elementID) {
         console.error('Element not found');
     }
 }
-function slideInProfilePhoto() {
-    var photoElement = document.getElementById('profile-photo');
+function slideInProfilePhoto(elementID) {
+    var photoElement = document.getElementById(elementID);
 
     if (photoElement) {
         photoElement.style.right = '0';
