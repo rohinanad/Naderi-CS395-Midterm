@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function () {
    slideInProfilePhoto('icon-cont');
    slideInProfilePhoto('profile-photo');
 });
-
 function slideInNameDisplay(elementID) {
     var nameDisplayElement = document.getElementById(elementID);
 
@@ -24,3 +23,14 @@ function slideInProfilePhoto(elementID) {
         console.error('Element not found');
     }
 }
+function displayResume() {
+    var pdfPath = 'assets/Rohina_Naderi_Resume.pdf';
+  
+    window.open(pdfPath, '_blank');
+  }
+  function goToAnotherPage(name) {
+    window.location.href = name;
+  }
+  function openLink(link) {
+    window.open(link, '_blank');
+  }

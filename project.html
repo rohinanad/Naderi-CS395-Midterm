@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rohina Naderi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/newtab.css"
+    />
+    <script src="js/newtab.js"></script>
+  </head>
+
+  <body>
+    <div id="projects-title">
+      <h1>My projects</h1>
+    </div>
+    <div class="projects-all">
+      <div class="project-container">
+        <div class="project-item">Cravings App</div>
+        <div class="project-description">
+          This app uses the Ionic Framework and React, as well as TypeScript.
+          The purpose of this app is to allow users to create an account and add
+          recipes to their favorites lsit. The recipe page has filters that
+          allows a user to find recipes which use specific ingredients or follow
+          specific diets.
+          <div class="github-button">
+            <button
+              id="open-repository"
+              onclick="openLink('https://github.com/rohinanad/cravings-app')"
+            >
+              Open GitHub Repository
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="projects-all">
+      <div class="project-container">
+        <div class="project-item">Frequent Flyer</div>
+        <div class="project-description">
+          This app uses Java and JSP pages to get query results from a database.
+          The application has a rewards system and allows users to create an
+          account and gain/loose points based on their flight desires. Android
+          Studio is used for creating the app.
+          <div class="github-button">
+            <button
+              id="open-repository"
+              onclick="openLink('https://github.com/rohinanad/FrequentFlyer')"
+            >
+              Open GitHub Repository
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="projects-all">
+      <div class="project-container">
+        <div class="project-item">Weather Forecast</div>
+        <div class="project-description">
+          This program uses C# to make API requests and get the 12 hour
+          forecast. The forecast is then written to a file and used in the
+          future for weather-based applications.
+          <div class="github-button">
+            <button
+              id="open-repository"
+              onclick="openLink('https://github.com/Abcofm/weatherForecast')"
+            >
+              Open GitHub Repository
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="display: flex; justify-content: center">
+      <button id="return" onclick="goToAnotherPage('newtab.html')">
+        Back to Homepage
+      </button>
+    </div>
+  </body>
+</html>

@@ -8,6 +8,8 @@
 }
 body{
     background-color: white;
+    height: 100%;
+    margin:0;
 }
 #name-display{
     font-family: 'HelloOlivia';
@@ -42,7 +44,8 @@ body{
 .intro-div{
     display: flex;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 #icons{
     margin-right: 30px;
@@ -55,4 +58,127 @@ body{
     position: relative;
     right: -500px; /* Initially positioned outside the viewport */
     transition: right 1.0s ease-in-out; /* Smooth transition effect */
+}
+#under-content{
+    background-color: #969491;
+    flex:1;
+    height:300px;
+    display: flex;
+    justify-content: center;
+}
+.others{
+    height: 220px;
+    width: 220px;
+    border:2px solid rgb(69, 68, 68);
+    margin-top: 30px;
+    margin-left: 60px;
+    border-radius: 30px;
+}
+.titles{
+    font-family: 'HelloOlivia';
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.descriptions{
+    font-family: 'Inconsolata';
+    margin-left: 4px;
+    margin-right: 4px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+#mason-logo{
+    height: 100px;
+}
+#education{
+    display: inline;
+    justify-content: center;
+    height: fit-content;
+    font-family: 'Inconsolata';
+    margin-left: 4px;
+    margin-right: 4px;
+    text-align: center;
+    margin-top: 0px;
+}
+#title-ed{
+    font-family: 'HelloOlivia';
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 0px;
+    height: 30px;
+}
+.take-to-projects{
+    border-radius: 100px;
+    font-family: 'Inconsolata';
+    background-color: #969491;
+    border: 1px solid black;
+    font-size: larger;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    height: 30px;
+}
+.buttons :hover{
+    cursor: pointer;
+}
+#projects-title{
+    font-family: 'HelloOlivia';
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.projects-all{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 30px;
+}
+.project-container{
+    border: 1px solid black;
+    height: 170px;
+    width: 800px;
+    border-radius: 50px;
+    display: flex;
+    justify-content:flex-start;
+}
+.project-item{
+    font-family: 'Inconsolata';
+    font-weight: 600;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+.project-description{
+    font-family:'Inconsolata';
+    margin-top: 30px;
+    margin-right: 40px;
+}
+.github-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#open-repository{
+    background-color:white; 
+    border: 1px solid black;
+    font-family: 'Inconsolata'; 
+    font-size: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#return{
+    background-color:white; 
+    border: 1px solid black;
+    font-family: 'Inconsolata'; 
+    font-size: 30px;
+    border-radius: 30px;
+    width: 300px;
+    height: 50px;
+    cursor: pointer;
 }
