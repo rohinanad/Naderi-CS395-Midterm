@@ -34,3 +34,6 @@ function displayResume() {
   function openLink(link) {
     window.open(link, '_blank');
   }
+  function goHome() {
+    window.location.href = '../newtab.html';
+  }
