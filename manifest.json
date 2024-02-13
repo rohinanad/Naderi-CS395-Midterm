@@ -6,8 +6,5 @@
     "description": "This extension overrides the default new tab.",
     "icons": {
       "128": "assets/icon.png"
-    },
-    "chrome_url_overrides": {
-      "newtab": "newtab.html"
     }
   }
